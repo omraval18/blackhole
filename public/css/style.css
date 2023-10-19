@@ -497,7 +497,7 @@ strong {
     border: 1px solid var(--light-border-color);
     border-radius: 25px;
     cursor: pointer;
-    background-color: transparent;
+    background-color: black;
     transition: all 0.2s ease-in;
     width: 150px;
 }
@@ -521,6 +521,7 @@ strong {
 
 .share-link button.copy span {
     background: url("../img/copy.svg") no-repeat;
+
     background-size: 18px;
     background-position: 20px center;
 }
